@@ -9,6 +9,7 @@ class testApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-
+		float a;
+		float b;
 		ofxCenteredTrueTypeFont font;
 };
